@@ -16,7 +16,7 @@ def test_happy_path(fsf_address):
 
 
 def test_minors_cannot_order_from_the_shop():
-    user = User.Builder().with_age(17).build()
+    user = User.Builder().with_age(16).build()
     # user = User(
     #     name="bob",
     #     email="bob@domain.tld",

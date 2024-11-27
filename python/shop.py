@@ -56,7 +56,7 @@ class Shop:
         if user.age <= 18:
             return False
         if not user.verified:
-            return False #FIXME: c'était kc
+            return False #FIXME: ct kc ☝️🤓
         else:
             return True
 
